@@ -13,4 +13,4 @@ def square_array_too(array)
     num*num
   end
   return array
-end
+end 
