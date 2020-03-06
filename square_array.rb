@@ -6,3 +6,11 @@ def square_array(array)
   end
   return new_array
 end
+
+
+def square_array_too(array)
+  array.collect do |num|
+    num*num
+  end
+  return array
+end
